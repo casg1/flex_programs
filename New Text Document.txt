@@ -1,0 +1,27 @@
+auto main() {
+    int a = 10;
+    float b = 3.14;
+    char c = 'A';
+
+    auto sum = a + b;
+    auto diff = a - b;
+    auto product = a * b;
+    auto quotient = a / b;
+
+    if (a > b) {
+        printf("a is greater than b");
+    } else {
+        printf("b is greater than or equal to a");
+    }
+
+    for (auto i = 0; i < 5; ++i) {
+        printf("Iteration %d\n", i);
+    }
+
+    while (a > 0) {
+        printf("a is %d\n", a);
+        --a;
+    }
+
+    return 0;
+}
