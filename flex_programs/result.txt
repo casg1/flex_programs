@@ -1,0 +1,71 @@
+	1: reserved word: int
+	1: ID, name= mod
+	1: left parenthesis: (
+	1: reserved word: int
+	1: ID, name= u
+	1: comma: ,
+	1: reserved word: int
+	1: ID, name= v
+	1: right parenthesis: )
+	2: left curly bracket: {
+	2: reserved word: if
+	2: left parenthesis: (
+	2: ID, name= v
+	2: operator, assign: ==
+	2: NUM, val= 0
+	2: right parenthesis: )
+	2: reserved word: return
+	2: ID, name= u
+	2: semi colum: ;
+	3: reserved word: else
+	3: reserved word: return
+	3: ID, name= mod
+	3: left parenthesis: (
+	3: ID, name= v
+	3: comma: ,
+	3: ID, name= u
+	3: operator, minus: -
+	3: ID, name= u
+	3: operator, over: /
+	3: ID, name= v
+	3: operator, times: *
+	3: ID, name= v
+	3: right parenthesis: )
+	3: semi colum: ;
+	5: right curly bracket: }
+	6: reserved word: void
+	6: ID, name= main
+	6: left parenthesis: (
+	6: reserved word: void
+	6: right parenthesis: )
+	7: left curly bracket: {
+	7: reserved word: int
+	7: ID, name= x
+	7: semi colum: ;
+	7: reserved word: int
+	7: ID, name= y
+	7: semi colum: ;
+	8: ID, name= x
+	8: operator, equal: =
+	8: ID, name= input
+	8: left parenthesis: (
+	8: right parenthesis: )
+	8: semi colum: ;
+	8: ID, name= y
+	8: operator, equal: =
+	8: ID, name= input
+	8: left parenthesis: (
+	8: right parenthesis: )
+	8: semi colum: ;
+	9: ID, name= output
+	9: left parenthesis: (
+	9: ID, name= mod
+	9: left parenthesis: (
+	9: ID, name= x
+	9: comma: ,
+	9: ID, name= y
+	9: right parenthesis: )
+	9: right parenthesis: )
+	9: semi colum: ;
+	10: right curly bracket: }
+	11: EOF
